@@ -16,7 +16,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
-	at com.wiki.demo.WikiApplication.main(WikiApplication.java:18)
+	at com.wiki.demo.config.WikiApplication.main(WikiApplication.java:18)
 Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
 	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
 	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
@@ -46,7 +46,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
-	at com.wiki.demo.WikiApplication.main(WikiApplication.java:18)
+	at com.wiki.demo.config.WikiApplication.main(WikiApplication.java:18)
 Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
 	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
 	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
