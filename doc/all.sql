@@ -1,5 +1,5 @@
-drop table if exists `test`;
-create table `test`(
+drop table if exists `devtest`;
+create table `devtest`(
                        `id` bigint not null comment 'id',
                        `name` varchar(50) comment 'name',
                        `password` varchar(50) comment 'password',
