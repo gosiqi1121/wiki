@@ -626,3 +626,48 @@ Action:
 
 Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
 
+2022-01-21 00:49:24.204 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-21 00:50:49.449 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-21 00:56:56.308 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
