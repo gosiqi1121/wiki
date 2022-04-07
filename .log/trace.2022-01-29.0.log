@@ -1,0 +1,848 @@
+2022-01-29 00:08:35.136 INFO  org.apache.coyote.http11.Http11Processor          :175  [32m                  [0;39m Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03~0xe10xbehn0x940xf2}a0xb20xbb<50xde0xbb0xefVT50x1a0x820x0a0xa60xb70xc2q0x08vT0xb7d0xc2 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-01-29 00:13:23.171 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m27s315ms).
+2022-01-29 00:19:09.574 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m16s17ms).
+2022-01-29 00:38:45.387 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m5s775ms).
+2022-01-29 00:52:38.097 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m52s693ms).
+2022-01-29 01:11:52.084 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m43s602ms).
+2022-01-29 01:27:47.407 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m25s321ms).
+2022-01-29 01:35:43.645 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m26s186ms).
+2022-01-29 01:51:54.167 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m40s515ms).
+2022-01-29 01:58:22.602 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m58s432ms).
+2022-01-29 02:01:06.033 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m13s422ms).
+2022-01-29 02:07:25.674 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m19s641ms).
+2022-01-29 02:19:26.259 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m30s586ms).
+2022-01-29 02:24:07.147 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m10s881ms).
+2022-01-29 02:56:37.667 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m471ms).
+2022-01-29 04:03:16.064 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m38s397ms).
+2022-01-29 04:19:25.585 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m39s511ms).
+2022-01-29 04:40:22.660 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m27s65ms).
+2022-01-29 05:27:59.427 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m6s777ms).
+2022-01-29 05:51:15.412 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m45s970ms).
+2022-01-29 06:13:09.683 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m42s134ms).
+2022-01-29 06:16:37.557 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s844ms).
+2022-01-29 06:36:23.924 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m13s675ms).
+2022-01-29 06:40:54.333 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m402ms).
+2022-01-29 07:00:25.838 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m31s505ms).
+2022-01-29 07:02:42.920 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s19ms).
+2022-01-29 07:07:39.853 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m26s930ms).
+2022-01-29 07:16:42.931 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s443ms).
+2022-01-29 07:35:37.523 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m37s937ms).
+2022-01-29 07:37:04.212 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s683ms).
+2022-01-29 07:40:03.030 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m18s708ms).
+2022-01-29 07:45:05.552 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s519ms).
+2022-01-29 08:05:23.322 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m1s618ms).
+2022-01-29 08:31:50.649 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m56s102ms).
+2022-01-29 08:41:22.003 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m1s348ms).
+2022-01-29 08:47:23.810 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m1s807ms).
+2022-01-29 08:50:06.683 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m12s868ms).
+2022-01-29 08:52:24.635 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m47s948ms).
+2022-01-29 08:56:25.287 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m50s146ms).
+2022-01-29 08:59:44.188 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m48s760ms).
+2022-01-29 09:04:23.037 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m8s838ms).
+2022-01-29 09:20:05.750 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m41s611ms).
+2022-01-29 09:37:14.234 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m38s475ms).
+2022-01-29 09:43:30.526 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s496ms).
+2022-01-29 10:57:10.378 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m8s778ms).
+2022-01-29 11:05:48.770 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m38s392ms).
+2022-01-29 11:11:09.790 WARN  com.zaxxer.hikari.pool.HikariPool                 :788  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m21s33ms).
+2022-01-29 11:11:42.937 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-01-29 11:11:43.303 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-01-29 11:11:47.553 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:11:47.592 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:11:52.268 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:11:52.321 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:11:52.322 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:11:52.322 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:11:54.946 INFO  o.a.c.c.ContainerBase.[Tomcat-48].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:11:55.372 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 7129 ms
+2022-01-29 11:12:32.348 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:12:32.374 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:12:32.406 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:12:32.717 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:12:33.033 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:12:33.034 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:12:46.801 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:12:46.803 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:12:46.804 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:12:46.804 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:12:47.002 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:12:47.002 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 13954 ms
+2022-01-29 11:12:52.921 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:12:52.958 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:12:52.963 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:12:52.992 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 20.7 seconds (JVM running for 282598.272)
+2022-01-29 11:12:52.998 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:12:52.999 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:12:53.000 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:13:12.400 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:13:12.400 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:13:14.107 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:13:14.109 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:13:14.189 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:13:14.190 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:14.190 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:13:14.191 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:13:14.399 INFO  o.a.c.c.ContainerBase.[Tomcat-49].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:13:14.400 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1993 ms
+2022-01-29 11:13:18.620 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:13:18.622 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:18.622 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:13:18.623 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:13:18.653 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:13:18.654 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 4541 ms
+2022-01-29 11:13:19.808 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:13:20.027 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:20.064 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:13:20.082 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 6.214 seconds (JVM running for 282625.364)
+2022-01-29 11:13:20.100 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:13:20.101 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:13:20.101 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:13:29.393 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:13:29.394 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:13:29.404 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:13:29.411 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:13:30.896 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:13:30.897 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:13:32.303 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:13:32.304 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:32.305 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:13:32.306 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:13:32.322 INFO  o.a.c.c.ContainerBase.[Tomcat-50].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:13:32.323 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1420 ms
+2022-01-29 11:13:32.333 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:13:32.334 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:13:32.342 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:13:32.353 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:13:37.729 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:13:37.730 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:13:39.925 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:13:39.925 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:13:39.930 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:13:39.932 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:39.932 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:13:39.933 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:13:39.968 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:13:39.969 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2219 ms
+2022-01-29 11:13:41.454 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:13:41.501 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:41.502 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:13:41.514 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 3.885 seconds (JVM running for 282646.796)
+2022-01-29 11:13:41.517 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:13:41.519 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:13:41.520 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:13:41.647 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:13:41.648 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:41.678 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:13:41.679 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:13:41.696 INFO  o.a.c.c.ContainerBase.[Tomcat-51].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:13:41.697 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1766 ms
+2022-01-29 11:13:41.715 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:13:41.716 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:13:41.865 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:13:41.873 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:13:43.169 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:13:43.170 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:13:44.756 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:13:44.757 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:44.758 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:13:44.759 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:13:44.788 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:13:44.789 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1604 ms
+2022-01-29 11:13:45.710 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:13:45.726 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:45.842 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:13:45.855 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 2.753 seconds (JVM running for 282651.138)
+2022-01-29 11:13:45.874 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:13:45.875 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:13:45.876 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:13:53.575 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:13:53.575 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:13:54.152 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:13:54.152 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:13:55.199 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:13:55.200 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:55.200 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:13:55.200 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:13:55.212 INFO  o.a.c.c.ContainerBase.[Tomcat-52].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:13:55.213 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1634 ms
+2022-01-29 11:13:55.225 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:13:55.226 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:13:55.344 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:13:55.354 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:13:56.436 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:13:56.437 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:56.439 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:13:56.440 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:13:56.539 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:13:56.539 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2363 ms
+2022-01-29 11:13:58.239 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:13:58.264 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:13:58.265 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:13:58.271 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 4.205 seconds (JVM running for 282663.554)
+2022-01-29 11:13:58.273 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:13:58.274 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:13:58.274 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:13:58.405 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:13:58.405 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:14:00.021 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:14:00.022 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:14:00.023 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:14:00.023 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:14:00.213 INFO  o.a.c.c.ContainerBase.[Tomcat-53].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:14:00.213 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1798 ms
+2022-01-29 11:14:00.233 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:14:00.234 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:14:00.262 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:14:00.277 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:14:18.497 WARN  org.springframework.boot.StartupInfoLogger        :117  [32m                  [0;39m InetAddress.getLocalHost().getHostName() took 5001 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2022-01-29 11:14:21.744 WARN  org.springframework.boot.StartupInfoLogger        :117  [32m                  [0;39m InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2022-01-29 11:14:23.498 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:14:23.499 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:14:25.058 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:14:25.075 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:14:25.076 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:14:25.076 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:14:25.108 INFO  o.a.c.c.ContainerBase.[Tomcat-54].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:14:25.127 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1624 ms
+2022-01-29 11:14:25.149 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:14:25.150 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:14:25.164 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:14:25.183 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:19:28.885 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:19:28.885 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:19:30.366 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:19:30.366 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:19:31.927 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:19:31.928 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:19:31.930 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:19:31.931 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:19:32.121 INFO  o.a.c.c.ContainerBase.[Tomcat-55].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:19:32.126 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1754 ms
+2022-01-29 11:19:49.238 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:19:49.253 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:19:49.255 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:19:49.259 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:19:49.332 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:19:49.333 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 20442 ms
+2022-01-29 11:19:50.254 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:19:50.511 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:19:50.512 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:19:50.517 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 43.349 seconds (JVM running for 282714.726)
+2022-01-29 11:19:50.520 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:19:50.522 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:19:50.522 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:19:54.036 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:19:54.036 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:19:54.044 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:19:54.051 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:19:58.069 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:19:58.069 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:20:09.161 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:20:09.162 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:20:09.163 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:20:09.163 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:20:09.173 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:20:09.173 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 11091 ms
+2022-01-29 11:20:10.410 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:20:10.439 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:20:10.440 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:20:10.447 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 12.42 seconds (JVM running for 282734.649)
+2022-01-29 11:20:10.454 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:20:10.476 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:20:10.478 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:20:17.095 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:20:17.095 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:20:17.154 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:20:17.154 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:20:19.808 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:20:19.809 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:20:19.810 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:20:19.811 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:20:19.823 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:20:19.823 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2725 ms
+2022-01-29 11:20:20.654 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:20:20.663 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:20:20.664 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:20:20.669 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:20:20.969 INFO  o.a.c.c.ContainerBase.[Tomcat-56].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:20:20.969 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3794 ms
+2022-01-29 11:20:21.009 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:20:21.016 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:20:21.045 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:20:21.067 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:20:21.105 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:20:21.336 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:20:21.337 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:20:21.343 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 4.302 seconds (JVM running for 282745.543)
+2022-01-29 11:20:21.345 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:20:21.346 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:20:21.346 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:20:24.410 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:20:24.443 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:20:26.083 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:20:26.083 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:20:28.968 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:20:29.051 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:20:29.052 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:20:29.052 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:20:29.152 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:20:29.153 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3066 ms
+2022-01-29 11:20:29.568 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:20:29.569 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:20:29.569 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:20:29.570 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:20:29.580 INFO  o.a.c.c.ContainerBase.[Tomcat-57].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:20:29.580 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 5033 ms
+2022-01-29 11:20:29.807 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:20:29.807 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:20:29.938 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:20:30.046 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:20:30.065 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:20:30.066 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:20:30.069 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:20:30.073 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 4.054 seconds (JVM running for 282754.273)
+2022-01-29 11:20:30.075 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:20:30.075 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:20:30.076 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:29:00.917 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:29:00.919 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:29:02.240 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:29:02.654 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:29:02.826 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:29:02.826 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:29:02.902 INFO  o.a.c.c.ContainerBase.[Tomcat-58].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:29:03.338 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2416 ms
+2022-01-29 11:29:03.392 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:29:03.393 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:29:03.399 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:29:03.404 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:30:23.255 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:30:23.257 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:30:26.025 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:30:26.026 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:30:26.026 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:30:26.027 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:30:26.044 INFO  o.a.c.c.ContainerBase.[Tomcat-59].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:30:26.089 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2824 ms
+2022-01-29 11:30:26.260 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:30:26.318 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:30:26.430 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:30:26.505 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:30:41.488 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:30:41.492 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:30:42.244 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:30:42.245 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:30:42.245 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:30:42.246 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:30:42.258 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:30:42.258 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 762 ms
+2022-01-29 11:30:42.408 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:30:42.416 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:30:42.417 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:30:42.421 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 1.084 seconds (JVM running for 282880.923)
+2022-01-29 11:30:42.422 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:30:42.422 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:30:42.422 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:31:03.838 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:31:04.632 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:32:28.152 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:32:28.224 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:32:28.673 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:32:29.146 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:32:29.146 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:32:29.147 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:32:29.162 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:32:29.296 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:32:29.297 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:32:29.297 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:32:29.344 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:32:29.346 INFO  o.a.c.c.ContainerBase.[Tomcat-60].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:32:30.573 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2307 ms
+2022-01-29 11:32:30.574 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 85730 ms
+2022-01-29 11:32:30.730 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:32:30.905 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:32:31.020 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:32:31.612 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:32:31.680 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:32:31.672 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:32:31.864 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:32:33.538 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 5.424 seconds (JVM running for 282992.039)
+2022-01-29 11:32:33.554 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:32:33.554 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:32:33.555 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:32:33.918 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:32:33.918 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:33:20.121 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:33:20.154 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:33:22.762 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:33:22.763 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:33:22.764 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:33:22.764 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:33:22.790 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:33:22.791 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:33:22.792 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:33:22.792 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:33:22.792 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 48871 ms
+2022-01-29 11:33:22.792 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:33:23.422 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:33:23.456 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:33:23.474 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:33:23.489 INFO  o.a.c.c.ContainerBase.[Tomcat-61].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:33:23.499 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 49.682 seconds (JVM running for 283042.0)
+2022-01-29 11:33:23.559 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3394 ms
+2022-01-29 11:33:23.569 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:33:23.678 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:33:23.689 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:33:23.849 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:33:23.889 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:33:24.127 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:33:25.572 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:33:34.834 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:33:34.834 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:33:34.907 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:33:34.908 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:33:36.710 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:33:36.711 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:33:36.712 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:33:36.712 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:33:36.730 INFO  o.a.c.c.ContainerBase.[Tomcat-62].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:33:36.732 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1888 ms
+2022-01-29 11:33:36.748 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:33:36.751 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:33:36.762 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:33:36.772 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:33:36.971 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:33:36.972 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:33:36.973 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:33:36.974 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:33:37.012 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:33:37.012 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1971 ms
+2022-01-29 11:33:38.009 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:33:38.210 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:33:38.211 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:33:38.218 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 3.356 seconds (JVM running for 283056.719)
+2022-01-29 11:33:38.245 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:33:38.247 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:33:38.288 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:33:39.748 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:33:39.749 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:33:48.547 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:33:48.674 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:33:49.633 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:33:49.687 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:33:49.693 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:33:49.704 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:33:49.944 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:33:49.967 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 10119 ms
+2022-01-29 11:33:51.475 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:33:51.489 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:33:51.500 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:33:51.511 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 11.813 seconds (JVM running for 283070.011)
+2022-01-29 11:33:51.514 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:33:51.515 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:33:51.534 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
+2022-01-29 11:33:51.907 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:33:51.909 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:33:51.910 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:33:51.910 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:33:51.924 INFO  o.a.c.c.ContainerBase.[Tomcat-63].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:33:51.925 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2203 ms
+2022-01-29 11:33:51.957 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:33:51.958 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:33:51.973 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:33:52.054 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:34:29.478 ERROR org.springframework.boot.SpringApplication        :819  [32m                  [0;39m Application run failed
+java.lang.IllegalStateException: IO error on loading imports from [optional:classpath:/;optional:classpath:/config/]
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:89)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:121)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:240)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:227)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:102)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:94)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:102)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:87)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at com.wiki.demo.config.WikiApplication.main(WikiApplication.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [config/application.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199)
+	at org.springframework.boot.origin.OriginTrackedResource.getInputStream(OriginTrackedResource.java:61)
+	at org.springframework.boot.env.OriginTrackedPropertiesLoader$CharacterReader.<init>(OriginTrackedPropertiesLoader.java:203)
+	at org.springframework.boot.env.OriginTrackedPropertiesLoader.load(OriginTrackedPropertiesLoader.java:79)
+	at org.springframework.boot.env.OriginTrackedPropertiesLoader.load(OriginTrackedPropertiesLoader.java:65)
+	at org.springframework.boot.env.PropertiesPropertySourceLoader.loadProperties(PropertiesPropertySourceLoader.java:70)
+	at org.springframework.boot.env.PropertiesPropertySourceLoader.load(PropertiesPropertySourceLoader.java:49)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:107)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:128)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:86)
+	... 25 common frames omitted
+2022-01-29 11:34:30.155 ERROR org.springframework.boot.SpringApplication        :819  [32m                  [0;39m Application run failed
+java.lang.IllegalStateException: IO error on loading imports from [optional:classpath:/;optional:classpath:/config/]
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:89)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:121)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:240)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:227)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:102)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:94)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:102)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:87)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at com.wiki.demo.config.WikiApplication.main(WikiApplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [config/application.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199)
+	at org.springframework.boot.origin.OriginTrackedResource.getInputStream(OriginTrackedResource.java:61)
+	at org.springframework.boot.env.OriginTrackedPropertiesLoader$CharacterReader.<init>(OriginTrackedPropertiesLoader.java:203)
+	at org.springframework.boot.env.OriginTrackedPropertiesLoader.load(OriginTrackedPropertiesLoader.java:79)
+	at org.springframework.boot.env.OriginTrackedPropertiesLoader.load(OriginTrackedPropertiesLoader.java:65)
+	at org.springframework.boot.env.PropertiesPropertySourceLoader.loadProperties(PropertiesPropertySourceLoader.java:70)
+	at org.springframework.boot.env.PropertiesPropertySourceLoader.load(PropertiesPropertySourceLoader.java:49)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:107)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:128)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:86)
+	... 25 common frames omitted
+2022-01-29 11:34:53.166 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 15493 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:34:53.166 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:34:53.385 INFO  com.wiki.demo.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_312 on sunarkedeMacBook-Pro.local with PID 64977 (/Users/sunarke/Desktop/wiki/target/classes started by sunarke in /Users/sunarke/Desktop/wiki)
+2022-01-29 11:34:53.385 INFO  com.wiki.demo.config.WikiApplication              :635  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 11:34:53.430 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:34:53.432 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:34:53.433 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:34:53.433 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:34:53.457 INFO  o.a.c.c.ContainerBase.[Tomcat-64].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:34:53.457 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 289 ms
+2022-01-29 11:34:53.464 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wiki.demo.mapper.DemoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2022-01-29 11:34:53.464 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-01-29 11:34:53.468 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-29 11:34:53.472 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.wiki.demo.mapper.DemoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wiki.demo.mapper.DemoMapper' in your configuration.
+
+2022-01-29 11:34:53.555 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 11:34:53.556 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:34:53.556 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 11:34:53.556 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 11:34:53.562 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 11:34:53.562 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 175 ms
+2022-01-29 11:34:53.722 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m                  [0;39m Unable to start LiveReload server
+2022-01-29 11:34:53.739 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 11:34:53.740 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 11:34:53.749 INFO  com.wiki.demo.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 0.39 seconds (JVM running for 283132.249)
+2022-01-29 11:34:53.751 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-01-29 11:34:53.752 INFO  com.wiki.demo.config.WikiApplication              :20   [32m                  [0;39m 启动成功
+2022-01-29 11:34:53.753 INFO  com.wiki.demo.config.WikiApplication              :21   [32m                  [0;39m 地址： 	http://127.0.0.1: 8880
