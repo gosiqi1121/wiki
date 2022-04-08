@@ -5,6 +5,7 @@ import com.wiki.demo.domain.EbookExample;
 import com.wiki.demo.mapper.EbookMapper;
 import com.wiki.demo.req.EbookReq;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ObjectUtils;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -17,7 +18,9 @@ public class EbookService {
     public List<Ebook> list(EbookReq req){
         EbookExample ebookExample = new EbookExample();
         EbookExample.Criteria criteria = ebookExample.createCriteria();
-        criteria.andNameLike("%" + req.getName() + "%");
+        if(!ObjectUtils.isEmpty(req.getName())){
+            criteria.andNameLike("%" + req.getName() + "%");
+        }
         return ebookMapper.selectByExample(ebookExample);
     }
 }
